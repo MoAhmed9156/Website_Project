@@ -272,7 +272,13 @@ nav {
 section {
   position: relative;
   z-index: 1;
-  padding: 165px 50px;
+  padding: 160px 50px 40vh;
+}
+#home {
+  padding: 50vh 50px;
+}
+#contact {
+  padding-bottom: 30vh;
 }
 
 .section-title {
@@ -1367,7 +1373,8 @@ footer {
 /* Smooth scrolling for all devices */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+  scroll-padding-top: 50px;
+  scroll-margin-top: 40px;
   -webkit-overflow-scrolling: touch;
 }
 
