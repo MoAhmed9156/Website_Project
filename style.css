@@ -1094,6 +1094,9 @@ footer {
 
 /* Small Phones (480px and below) */
 @media (max-width: 480px) {
+  #contact {
+    padding: 20vh;
+  }
   .glitch {
     font-size: 1.6rem;
     letter-spacing: 1px;
@@ -1164,18 +1167,12 @@ footer {
   .language-desc {
     font-size: 0.85rem;
   }
-  /* .game-card {
-    height: 260px;
-  } */
   .game-title {
     font-size: 1.1rem;
   }
   .game-desc {
     font-size: 0.8rem;
   }
-  /* .game_image img {
-    width: 250px;
-  } */
   .game-tag {
     font-size: 0.7rem;
     padding: 3px 10px;
