@@ -1095,7 +1095,6 @@ footer {
 /* Small Phones (480px and below) */
 @media (max-width: 480px) {
   #contact {
-    padding: 20vh auto;
     margin-top: 10vh;
   }
   .glitch {
