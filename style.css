@@ -272,7 +272,7 @@ nav {
 section {
   position: relative;
   z-index: 1;
-  padding: 100px 50px;
+  padding: 165px 50px;
 }
 
 .section-title {
@@ -1311,7 +1311,7 @@ footer {
   background: linear-gradient(90deg, #ffcc00, #ff9500);
 }
 #arabic {
-  border-color: #00cc6a;
+  border-color: #00cc6a44;
 }
 #arabic::before {
   content: "";
@@ -1330,10 +1330,11 @@ footer {
 }
 #arabic:hover {
   transform: translateY(-8px);
+  border-color: #00cc6a;
   box-shadow: 0 15px 40px #00cc6a44;
 }
 #german {
-  border-color: #ff9500;
+  border-color: #ff950044;
 }
 #german::before {
   content: "";
@@ -1352,7 +1353,7 @@ footer {
 }
 #german:hover {
   transform: translateY(-8px);
-  /* border-color: #00cc6a; */
+  border-color: #ff9500;
   box-shadow: 0 15px 40px #ff950044;
 }
 #german .language-level {
@@ -1366,6 +1367,7 @@ footer {
 /* Smooth scrolling for all devices */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
   -webkit-overflow-scrolling: touch;
 }
 
